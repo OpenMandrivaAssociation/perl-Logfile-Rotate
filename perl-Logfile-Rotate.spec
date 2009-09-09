@@ -3,7 +3,7 @@
 %define	version	1.04
 %define	release	%mkrel 1
 
-Summary:	Logfile::Rotate to rotate logfiles
+Summary:	Rotate logfiles
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
@@ -17,7 +17,7 @@ Requires:	perl
 Buildarch:	noarch
 
 %description
-
+Perl module to rotate logfiles.
 
 %prep
 %setup -q -n %{module}-%{version}
