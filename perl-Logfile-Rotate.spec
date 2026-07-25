@@ -2,13 +2,13 @@
 %define upstream_version    1.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 Summary:	Perl module to rotate logfiles
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Logfile/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Logfile-Rotate
+Source:		https://cpan.metacpan.org/authors/id/P/PA/PAULG/Logfile-Rotate-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
