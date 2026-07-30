@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	6
+Release:	1
 Summary:	Perl module to rotate logfiles
 License:	GPL
 Group:		Development/Perl
@@ -34,15 +34,4 @@ make test
 %doc MANIFEST 
 %{perl_vendorlib}/Logfile/Rotate.pm
 %{_mandir}/*/*
-
-%changelog
-* Thu Sep 10 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.40.0-1mdv2010.0
-+ Revision: 437371
-- use new %%perl_version macro
-
-* Wed Sep 09 2009 Anne Nicolas <anne.nicolas@mandriva.com> 1.04-1mdv2010.0
-+ Revision: 435147
-- fix description
-- first release (Vigilo deps)
-- import perl-Logfile-Rotate
 
