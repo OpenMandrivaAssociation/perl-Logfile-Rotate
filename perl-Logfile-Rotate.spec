@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	1.04
-Release:	2
+Release:	3
 Summary:	Perl module to rotate logfiles
 License:	GPL
 Group:		Development/Perl
@@ -18,7 +18,7 @@ BuildArch:	noarch
 Perl module to rotate logfiles.
 
 %prep
-%setup -q -n Logfile-Rotate-1.04 
+%setup -q -n Logfile-Rotate-1.04
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
